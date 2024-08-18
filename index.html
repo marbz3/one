@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="D:\Descargas\One oracle\Encriptador\style.css">
+    </head>
+    <body>
+        <main>
+            <section class="seccionPrincipal">
+                <div class="logo">
+                    <img src="assets\logo (1).svg" alt="Logo de Alura">
+                </div>
+                <div class="container">
+                    <textarea name="input" id="input" class="input" placeholder="Ingrese mensaje aqui" cols="10" rows="10"></textarea>
+                </div>
+                <div class="validacion">
+                    <img src="assets\exclamation_z1ehflm4xi72.svg" class="exclamacion">
+                    Solo letras minúsculas y sin acentos
+                </div>
+                <div class="botones">
+                    <button onclick="botonEnc()" class="botonEnc">Encriptar</button>
+                    <button onclick="botonDes()" class="botonDesen">Desencriptar</button>
+                </div>
+            </section>
+            <section class="seccionSecundaria">
+                <div class="lupa" id="lupa">
+                    <img src="assets\notfound.svg" alt="Muchacho sorprendido en un campo estrellado sosteniendo una lupa frente a su ojo derecho viendo un diamante">
+                </div>
+                <div class="mensajeEncontrado" id="mensajeEncontrado">
+                    <h2 id="tituloMensaje">Ningún mensaje fue encontrado</h2>
+                    <p id="parrafoIngrese">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <textarea name="mensaje" id="mensaje" cols="10" rows="10" class="mensaje"></textarea>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Desarrollado por Marina. 2024</p>
+        </footer>
+        <script src="D:\Descargas\One oracle\Encriptador\encriptador.js"></script>
+    </body>
+</html>
