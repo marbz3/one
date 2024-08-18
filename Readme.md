@@ -4,7 +4,8 @@
    <img alt="Static Badge" src="https://img.shields.io/badge/status-finished-blue">
  </p>
 
-##Tecnologías utilizadas
+<img alt="Static Badge" src="https://img.shields.io/badge/Tecnolog%C3%ADas%20utilizadas-violet">
+
 - Javascript
 - HTML
 - CSS
